@@ -1,3 +1,0 @@
-- Fine tuning of real-time permissions
-- Memory optimization for thumbnails (using Glide)
-- Fix a crash on start in some devices

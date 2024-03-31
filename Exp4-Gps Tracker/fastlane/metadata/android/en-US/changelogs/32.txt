@@ -1,3 +1,0 @@
-- Features consolidation
-- Minor bugs fixed
-- Some refinements in light theme

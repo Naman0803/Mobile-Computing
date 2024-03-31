@@ -1,3 +1,0 @@
-- The download of the EGM grid has been restored, and now it works also on Android 4 devices
-- New app's icon
-- Some small graphical improvements
