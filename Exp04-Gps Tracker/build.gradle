@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+// NOTE: Uncomment it and execute a gradle task (./gradlew)
+// to get version of R8 that is being used by the Android Gradle Plugin
+//println(com.android.tools.r8.Version.getVersionString())
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // org.jetbrains.trove4j:trove4j:20160824.
+        gradlePluginPortal()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
