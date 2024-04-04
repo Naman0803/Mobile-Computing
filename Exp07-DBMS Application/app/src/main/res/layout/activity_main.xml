@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DBMS APPLICATION"
+        android:textSize="30sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Roll No:"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/Rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:background="#EEEEEE"
+        android:textColor="#333333"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Name:"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:background="#EEEEEE"
+        android:textColor="#333333"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Marks:"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/Marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:background="#EEEEEE"
+        android:textColor="#333333"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/Insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#27ECA7"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#FF5733"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#FFC300"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#3366FF"
+            android:layout_marginEnd="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
